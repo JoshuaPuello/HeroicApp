@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_near_me_black_24px"
+            android:title="Encontrar Ruta"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_edit_location_black_24px"
+            android:title="Planear Ruta"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_person_pin_black_24px"
+            android:title="Mis Rutas"/>
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="Informacion"/>
+    </group>
+</menu>

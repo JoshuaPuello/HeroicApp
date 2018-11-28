@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="tamanio_campoTexto">18sp</dimen>
+    <dimen name="margin_top">50sp</dimen>
+    <dimen name="margin_top_button">18sp</dimen>
+    <dimen name="margin_top_datos">10sp</dimen>
+    <dimen name="margin_top_user">24sp</dimen>
+
+</resources>

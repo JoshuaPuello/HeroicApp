@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="place">
+        <item>Universidad de Cartagena Campus San Agustin</item>
+        <item>UNIVERSIDAD DE CARTAGENA CENTRO DE POSGRADO Y EDUCACIÓN CONTINUA</item>
+        <item>Universidad de Cartagena Claustro de la Merced</item>
+        <item>Terminal de Transportes de Cartagena</item>
+        <item>Comfenalco</item>
+        <item>Castillo de San Felipe de Barajas</item>
+        <item>Estadio de Fútbol Jaime Morón León</item>
+        <item>Plaza de Toros</item>
+        <item>Coliseo De Combate Y Gimnasia</item>
+        <item>Casa De Justicia De Chiquinquirá</item>
+        <item>Centro Comercial Supercentro Los Ejecutivos II</item>
+        <item>Universidad Tecnológica De Bolívar: Parque Industrial y Tecnológico Carlos Vélez Pombo</item>
+        <item>Sena Ternera</item>
+        <item>Sena</item>
+        <item>SENA Centro para la industria petroquímica</item>
+        <item>Hospital Universitario Del Caribe</item>
+        <item>Caribe Plaza</item>
+        <item>NUEVO HOSPITAL DE BOCAGRANDE</item>
+        <item>hospital militar</item>
+        <item>Centro Médico Clínica Vargas</item>
+        <item>Colegio La Salle</item>
+        <item>Centro Médico El Socorro</item>
+        <item>Centro De Salud Del Socorro</item>
+        <item>Sao La Plazuela</item>
+        <item>Bomba Esso El Amparo</item>
+        <item>Universidad De Cartagena - Campus San Pablo</item>
+        <item>Universidad De Cartagena - Campus Piedra De Bolivar</item>
+        <item>Universidad Libre</item>
+        <item>Unidad Médica Lázaro Martínez</item>
+        <item>Colegio Militar Almirante Colón - Sede Vista Hermosa</item>
+        <item>universidad del sinu</item>
+        <item>Davivienda Base Naval</item>
+        <item>comfamiliar</item>
+    </string-array>
+</resources>

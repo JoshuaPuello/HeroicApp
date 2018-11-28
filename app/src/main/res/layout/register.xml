@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:id="@+id/imageView"
+        android:layout_width="150sp"
+        android:layout_height="100sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp" />
+
+    <TextView
+        android:text="Heroicapp"
+        android:layout_width="wrap_content"
+        android:textSize="34sp"
+        android:textColor="@color/white"
+        android:id="@+id/textView"
+        android:layout_height="50sp"
+        android:layout_marginTop="12sp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/password"
+        android:hint="Contraseña"
+        android:textSize="@dimen/tamanio_campoTexto"
+        android:textColorHint="@color/font_button"
+        android:background="@drawable/edittext_login_form"
+        android:inputType="textPassword"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/user"
+        android:layout_alignLeft="@+id/user"
+        android:layout_alignStart="@+id/user" />
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/confpass"
+        android:hint="Confirmar contraseña"
+        android:textSize="@dimen/tamanio_campoTexto"
+        android:textColorHint="@color/font_button"
+        android:background="@drawable/edittext_login_form"
+        android:inputType="textPassword"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/password"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignStart="@+id/password" />
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/email"
+        android:hint="Email"
+        android:textSize="@dimen/tamanio_campoTexto"
+        android:textColorHint="@color/font_button"
+        android:background="@drawable/edittext_login_form"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/user"
+        android:hint="Usuario"
+        android:textSize="@dimen/tamanio_campoTexto"
+        android:textColorHint="@color/font_button"
+        android:background="@drawable/edittext_login_form"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword"
+        android:fontFamily="sans-serif"
+        android:layout_below="@+id/email"
+        android:layout_alignLeft="@+id/email"
+        android:layout_alignStart="@+id/email" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_height="wrap_content"
+        android:text="Registrarme"
+        android:textColor="#000000"
+        android:background="@drawable/button_login_form"
+        android:layout_width="170sp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/confpass"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
