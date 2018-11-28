@@ -5,6 +5,7 @@ Heroicapp es un producto software móvil de carácter informativo dirigido a tod
 ## Colaboradore(s):
 
 **Joshua Puello** https://github.com/JoshuaPuello
+
 **Juan Tejada**
 
 ## Escenarios
